@@ -1,4 +1,4 @@
-package com.bump.counter;
+package org.flexware.counter;
 
 import java.util.HashSet;
 
