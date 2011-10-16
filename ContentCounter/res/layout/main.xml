@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button android:layout_width="wrap_content" android:id="@+id/button1" android:text="Count Photos" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginLeft="20dp" android:layout_marginTop="20dp"></Button>
+    <Button android:layout_width="wrap_content" android:id="@+id/button2" android:text="Count Thumbnails" android:layout_height="wrap_content" android:layout_below="@+id/button1" android:layout_alignLeft="@+id/button1" android:layout_marginTop="32dp"></Button>
+    <Button android:id="@+id/button3" android:layout_height="wrap_content" android:text="Count Photos w/Thumbs" android:layout_width="wrap_content" android:layout_below="@+id/button2" android:layout_alignLeft="@+id/button2" android:layout_marginTop="27dp"></Button>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_alignTop="@+id/button3" android:layout_alignParentRight="true" android:layout_marginRight="32dp"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_alignTop="@+id/button1" android:layout_alignLeft="@+id/textView3"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_alignTop="@+id/button2" android:layout_alignLeft="@+id/textView3"></TextView>
+
+</RelativeLayout>
